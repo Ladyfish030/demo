@@ -1,0 +1,65 @@
+            .container{
+                height: 200px;
+                width: 400px;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+            }
+            .pic{
+                height: 100%;
+                width: 2000px;
+                display: flex;
+                position: absolute;
+                left: -400px;
+                transition: left 0s;
+                transition-delay: 1s;
+            }
+            .pic-item{
+                float: left;
+                height: 100%;
+                width: 100%;
+                background-size: contain;
+                border-radius: 5px;
+                position: relative;
+            }
+            .pic div:nth-child(1){
+                background-image: url("../pictures/6.jpg");
+            }
+            .pic div:nth-child(2){
+                background-image: url("../pictures/4.jpg");
+            }
+            .pic div:nth-child(3){
+                background-image: url("../pictures/5.jpg");
+            }
+            .pic div:nth-child(4){
+                background-image: url("../pictures/6.jpg");
+            }
+            .pic div:nth-child(5){
+                background-image: url("../pictures/4.jpg");
+            }
+            .pic div p{
+                position: absolute;
+                bottom: 4px;
+                font-size: 18px;
+                left: 5px;
+                color: white;
+            }
+            .dots{
+                position: absolute;
+                height: 15px;
+                width: 45px;
+                bottom: 2px;
+                right: 3px;
+            }
+            .dots-item{
+                border-radius: 50%;
+                background-color: rgba(187, 187, 187, 0.66);
+                float: left;
+                height: 8px;
+                width: 8px;
+                margin: 3px;
+                cursor: pointer;
+            }
+            .dots-item:nth-child(1){
+                background-color: white;
+            }
